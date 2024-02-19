@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleEntityFrameworkWeb", "SimpleEntityFrameworkWeb\SimpleEntityFrameworkWeb.csproj", "{2752410D-7CB8-4069-B412-78F5F1BFF383}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Simple", "Simple", "{608D742A-DD80-48CF-9307-D3D140AEAF07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mutli-Project", "Mutli-Project", "{A338719A-B398-4876-9BCB-0341F861A7BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiEntityFrameworkWeb", "MultiEntityFrameworkWeb\MultiEntityFrameworkWeb.csproj", "{EE012CE6-8C12-4732-A8C0-1287DBB6EDC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleDataProject", "SampleDataProject\SampleDataProject.csproj", "{25DDB469-6E67-4BD8-BEB9-96D0747B9093}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleEntityFrameworkWeb.Migrations", "SimpleEntityFrameworkWeb.Migrations\SimpleEntityFrameworkWeb.Migrations.csproj", "{328FDA0D-D537-4E8F-8D51-913B2E582AB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2752410D-7CB8-4069-B412-78F5F1BFF383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2752410D-7CB8-4069-B412-78F5F1BFF383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2752410D-7CB8-4069-B412-78F5F1BFF383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2752410D-7CB8-4069-B412-78F5F1BFF383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE012CE6-8C12-4732-A8C0-1287DBB6EDC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE012CE6-8C12-4732-A8C0-1287DBB6EDC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE012CE6-8C12-4732-A8C0-1287DBB6EDC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE012CE6-8C12-4732-A8C0-1287DBB6EDC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25DDB469-6E67-4BD8-BEB9-96D0747B9093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25DDB469-6E67-4BD8-BEB9-96D0747B9093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25DDB469-6E67-4BD8-BEB9-96D0747B9093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25DDB469-6E67-4BD8-BEB9-96D0747B9093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{328FDA0D-D537-4E8F-8D51-913B2E582AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{328FDA0D-D537-4E8F-8D51-913B2E582AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{328FDA0D-D537-4E8F-8D51-913B2E582AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{328FDA0D-D537-4E8F-8D51-913B2E582AB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2752410D-7CB8-4069-B412-78F5F1BFF383} = {608D742A-DD80-48CF-9307-D3D140AEAF07}
+		{EE012CE6-8C12-4732-A8C0-1287DBB6EDC8} = {A338719A-B398-4876-9BCB-0341F861A7BB}
+		{25DDB469-6E67-4BD8-BEB9-96D0747B9093} = {A338719A-B398-4876-9BCB-0341F861A7BB}
+		{328FDA0D-D537-4E8F-8D51-913B2E582AB9} = {608D742A-DD80-48CF-9307-D3D140AEAF07}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {266443CC-D378-42C1-BBD0-378CD83C9129}
+	EndGlobalSection
+EndGlobal
